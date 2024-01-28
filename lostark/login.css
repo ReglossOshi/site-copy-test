@@ -131,3 +131,21 @@ input[id="save"]{
 .background .loginbox .btn a:hover{
     text-decoration: underline;
 }
+
+
+
+.background .loginbox .btn ul li::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.background .loginbox .btn ul li:nth-child(1):before{
+    display: none;
+}
